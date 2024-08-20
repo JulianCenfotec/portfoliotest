@@ -1,0 +1,31 @@
+<section id="contact">
+  <div class="container-fluid my-5 mx-0 px-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-9 d-flex justify-content-evenly flex-wrap">
+        <div class="contact mb-3">
+          <h2>Contact Me</h2>
+          <p>Get in touch for inquiries, collaborations, or just to say hello!</p>
+          <form (submit)="sendEmail($event)">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="user_name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="user_email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="user_message" rows="5" required></textarea>
+            </div>
+            <button type="submit" value="Send" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="contact">
+          <img src="assets/svg/undraw_love_it_heart_dxlp.svg" alt="Contact svg">
+       </div>
+      </div>
+    </div>
+  </div>
+
+</section>

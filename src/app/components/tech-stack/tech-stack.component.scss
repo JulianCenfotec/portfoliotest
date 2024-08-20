@@ -1,0 +1,23 @@
+.techContainer{
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #73E2A7;
+  color: #E8FFEF;
+  font-weight: bolder;
+  font-size: medium;
+  gap: 41px;
+  border-radius: 15px;
+  &:hover {
+    background-color: #1C7C54;
+  }
+}
+
+.techLogo{
+  font-size: 48px;
+  border-radius: 100%;
+  color: #E8FFEF;
+}
+

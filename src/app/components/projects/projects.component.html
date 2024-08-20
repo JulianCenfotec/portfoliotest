@@ -1,0 +1,26 @@
+<section class="gray">
+  <div class="container-fluid mx-0 py-5">
+    <div class="row d-flex justify-content-center flex-wrap">
+      <div class="col-9">
+        <h2>Projects</h2>
+        <div class="d-flex gap-3">
+          @for (project of projects; track project.title){
+            <div class="card mb-3">
+              <img [src]="project.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <p class="card-text">{{project.description}}</p>
+                <ul class="used-items">
+                  @for (tech of project.techs; track tech){
+                    <li class="used-item">{{ tech }}</li>
+                  }
+                </ul>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
