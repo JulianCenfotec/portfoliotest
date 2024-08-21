@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "homepage": "./portfoliotest",
+  "homepage": "/portfoliotest",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
