@@ -21,7 +21,9 @@
           <a class="text-muted email" (click)="copyEmail()"  >
             <i class="fa-solid fa-envelope"></i>
           </a>
-          @if (isCopied){<span class="copied-message py-1 px-2">Copied!</span>}
+          <div class="copied-message-container">
+              @if (isCopied){<span class="copied-message py-1 px-2">Copied!</span>}
+          </div>
         </li>
         <li class="ms-3">
           <a class="text-muted" href="https://github.com/JulianCenfotec">

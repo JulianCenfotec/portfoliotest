@@ -1,17 +1,17 @@
 <section class="">
   <div class="container-fluid my-5 mx-0 px-5">
     <div class="row d-flex justify-content-center">
-      <div class="col-9">
+      <div class="col-sm-9 col-11">
         <h2>Tech stack</h2>
-        <div class="d-flex justify-content-xl-evenly flex-wrap gap-3">
+        <div class="d-flex justify-content-xl-evenly flex-wrap gap-sm-3 gap-1">
           @for (tech of stack; track tech.techName){
             <div class="techContainer d-flex justify-content-start gap-2 ps-3">
               <i class="techLogo" [ngClass]=tech.techIcon></i>
               <div class="techInfo">
                 <div class="techName">{{ tech.techName }}</div>
-                <!-- -->
+                <!--
                 <div class="techCategory">{{ tech.techCategory }}</div>
-
+ -->
               </div>
             </div>
           }

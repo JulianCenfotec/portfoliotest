@@ -1,0 +1,26 @@
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+}
+
+.timeline-body {
+  padding: 10px;
+  border-left: 2px solid #3498db;
+  padding-left: 50px;
+}

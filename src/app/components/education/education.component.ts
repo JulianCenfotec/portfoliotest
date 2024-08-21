@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {IEducation} from "../../interfaces";
+import {education} from "../../data/data";
 
 @Component({
   selector: 'app-education',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './education.component.scss'
 })
 export class EducationComponent {
-
+  events: IEducation[] = education
 }

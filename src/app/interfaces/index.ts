@@ -9,3 +9,9 @@ export interface IProject {
   description: string,
   techs: string[],
 }
+export interface IEducation {
+  title: string;
+  description: string;
+  date: string;
+  link: string;
+}

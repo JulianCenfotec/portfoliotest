@@ -1,4 +1,4 @@
-import {IProject, ITech} from "../interfaces";
+import {IEducation, IProject, ITech} from "../interfaces";
 
 export const data:ITech[] = [
   {
@@ -56,14 +56,19 @@ export const data:ITech[] = [
 export const projects:IProject[] = [
   {
     title: "Beacon",
-    img:"https://d12jofbmgge65s.cloudfront.net/wp-content/uploads/2023/10/money-transfer-apps_header.webp",
-    description: "This is a project",
+    img:"../assets/img/bacon.png",
+    description: "A platform for personal finance management with financial calculators, income and expense planners, and an interactive video module.",
     techs: ["Angular 17", "SpringBoot", "Bootstrap", "MySQL"]
   },
   {
     title: "MelonTickets",
-    img:"https://d12jofbmgge65s.cloudfront.net/wp-content/uploads/2023/10/money-transfer-apps_header.webp",
-    description: "This is a project",
+    img:"../assets/img/melon.png",
+    description: "A refreshing web platform for buying tickets to a variety of events! With a watermelon-inspired design, our platform offers a fun and easy shopping experience.",
     techs: [".Net", "C#", "JavaScript", "Bootstrap", "MSQL Server"]
   }
+]
+
+export const education:IEducation[]=[
+  { title: 'Bachelor of Software Engineering', description: 'Universidad Cenfotec', date: '2022-2025',link:"https://ucenfotec.ac.cr/Carreras/bachillerato-en-ingenieria-del-software/" },
+  { title: 'Software Engineer Technician', description: 'Universidad Cenfotec', date: '2020-2022',link:"https://ucenfotec.ac.cr/Carreras/tecnico-en-ingenieria-del-software/?portfolioCats=1338" },
 ]

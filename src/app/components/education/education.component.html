@@ -2,6 +2,25 @@
   <div class="container-fluid mx-0 py-5">
     <div class="row d-flex justify-content-center">
       <div class="col-9">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul class="timeline">
+                @for (event of events; track event.title){
+                <li >
+                  <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-body">
+                      <h3 class="timeline-title">{{ event.title }}</h3>
+                      <p class="timeline-text">{{ event.description }}</p>
+                      <p class="timeline-date">{{ event.date }}</p>
+                    </div>
+                  </div>
+                </li>}
+              </ul>
+            </div>
+          </div>
+        </div>
 
         <div class="timeline-block"> <div class="timeline-content"> <h2 class="position">Northeastern University</h2> <h3 class="company"><a href="http://www.ccis.northeastern.edu/program/information-science-bs/" target="_blank">NU College of Computer &amp; Information Science</a></h3> <p class="job-desc">Candidate for Bachelor of Science in Information Science with a concentration in Human Computer Interaction (HCI) and a minor in Interaction Design. <strong>Graduating in May 2018.</strong></p> </div> <div class="timeline-img"> <div class="sprite university"></div> </div> <span class="date">2013 - Present</span> </div>
       </div>

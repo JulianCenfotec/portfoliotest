@@ -1,11 +1,11 @@
 .techContainer{
   display: flex;
-  width: 300px;
+  width: 200px;
   height: 100px;
   justify-content: center;
   align-items: center;
-  background-color: #73E2A7;
-  color: #E8FFEF;
+  background-color: #E8FFEF;
+  color: #73E2A7;
   font-weight: bolder;
   font-size: medium;
   gap: 41px;
@@ -13,11 +13,26 @@
   &:hover {
     background-color: #1C7C54;
   }
+  @media screen and (max-width: 400px) {
+    font-size: 13px;
+    width: 130px; /* Adjust the desired width */
+    height: 75px;  /* Adjust the desired height */
+  }
+  @media screen and (max-width: 675px) {
+    width: 150px; /* Adjust the desired width */
+    height: 75px;  /* Adjust the desired height */
+  }
 }
 
 .techLogo{
   font-size: 48px;
   border-radius: 100%;
-  color: #E8FFEF;
+  color: #73E2A7;
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 675px) {
+    font-size: 20px;
+  }
 }
 
