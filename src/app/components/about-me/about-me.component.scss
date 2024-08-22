@@ -14,3 +14,11 @@ h1{
     background-color: #1C7C54;
   }
 }
+
+.container {
+  display: flex;
+  height: 100vh; /* 100vh = 100% de la altura de la viewport */
+}
+.element {
+  flex: 1; /* Ocupa todo el espacio disponible */
+}
