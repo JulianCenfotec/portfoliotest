@@ -10,11 +10,15 @@
               <div class="card-body">
                 <h5 class="card-title">{{ project.title }}</h5>
                 <p class="card-text">{{project.description}}</p>
-                <ul class="used-items">
-                  @for (tech of project.techs; track tech){
-                    <li class="used-item">{{ tech }}</li>
-                  }
-                </ul>
+                <div class="d-flex justify-content-between">
+                  <ul class="used-items">
+                    @for (tech of project.techs; track tech){
+                      <li class="used-item">{{ tech }}</li>
+                    }
+                  </ul>
+                    <a class="projectLink" href="{{project.link}}" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
               </div>
             </div>
           }

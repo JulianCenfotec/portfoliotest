@@ -56,12 +56,14 @@ export const data:ITech[] = [
 export const projects:IProject[] = [
   {
     title: "Beacon",
+    link:"https://github.com/MrCube23/FrontEnd-Waddle-Beacon",
     img:"https://i.imgur.com/7QxWjrb.png",
     description: "A platform for personal finance management with financial calculators, income and expense planners, and an interactive video module.",
     techs: ["Angular 17", "SpringBoot", "Bootstrap", "MySQL"]
   },
   {
     title: "MelonTickets",
+    link:"https://github.com/MrCube23/BackEnd-Waddle-Beacon",
     img:"https://i.imgur.com/tLXFsqZ.png",
     description: "A refreshing web platform for buying tickets to a variety of events! With a watermelon-inspired design, our platform offers a fun and easy shopping experience.",
     techs: [".Net", "C#", "JavaScript", "Bootstrap", "MSQL Server"]
