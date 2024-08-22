@@ -1,5 +1,10 @@
 .navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #73E2A7;
+  z-index: 999;
   a{
     color: #E8FFEF;
     font-weight: bolder;

@@ -3,17 +3,20 @@
     <div class="row d-flex justify-content-center">
       <div class="col-sm-9 col-11">
         <h2 class="mb-3">Education</h2>
-            @for (event of events; track event.title){
-            <div class="mb-2" >
-              <div class="timeline-item">
-                <div class="timeline-icon"></div>
+          @for (event of events; track event.title){
+          <div class="mb-2" >
+            <div class="timeline-item">
+              <div class="timeline-icon d-flex flex-row justify-content-start flex-wrap">
+                <div class="col-5 col-lg-2 mb-2">
+                  <span class=" timeline-date">{{ event.date }}</span>
+                </div>
                 <div class="timeline-body">
-                  <h3 class="timeline-title">{{ event.title }}</h3>
+                  <span class="timeline-title">{{ event.title }}</span>
                   <p class="timeline-text">{{ event.description }}</p>
-                  <p class="timeline-date">{{ event.date }}</p>
                 </div>
               </div>
-            </div>}
+            </div>
+          </div>}
       </div>
     </div>
   </div>

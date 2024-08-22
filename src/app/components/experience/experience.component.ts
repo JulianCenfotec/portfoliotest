@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { experience} from "../../data/data";
 
 @Component({
   selector: 'app-experience',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './experience.component.scss'
 })
 export class ExperienceComponent {
-
+    protected jobs = experience
 }

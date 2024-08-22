@@ -11,6 +11,7 @@ import {Component, ElementRef, inject, ViewChild} from '@angular/core';
 export class NavbarComponent {
   protected email ="esjuliancabrera@gmail.com"
   isCopied: boolean = false;
+  isCollapsed = true;
 
   copyEmail() {
     navigator.clipboard.writeText(this.email)
@@ -26,4 +27,8 @@ export class NavbarComponent {
         console.error('Failed to copy:', err);
       });
   }
+  collapseNavbar() {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
 }

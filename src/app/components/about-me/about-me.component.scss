@@ -22,3 +22,18 @@ h1{
 .element {
   flex: 1; /* Ocupa todo el espacio disponible */
 }
+ p{
+  max-width: 400px;
+}
+img{
+  max-height: 400px;
+}
+.welcoming{width: auto}
+@media (max-width: 993px) {
+  .about {
+    padding-top: 70px; /* Aumenta el padding para pantallas pequeñas */
+  }
+  img{
+    max-height: 300px;
+  }
+}

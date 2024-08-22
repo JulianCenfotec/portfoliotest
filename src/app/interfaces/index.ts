@@ -15,3 +15,9 @@ export interface IEducation {
   date: string;
   link: string;
 }
+export interface IExperience {
+  position: string;
+  company: string;
+  date: string;
+  description: string;
+}

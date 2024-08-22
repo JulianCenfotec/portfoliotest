@@ -1,4 +1,4 @@
-import {IEducation, IProject, ITech} from "../interfaces";
+import {IEducation, IExperience, IProject, ITech} from "../interfaces";
 
 export const data:ITech[] = [
   {
@@ -71,4 +71,13 @@ export const projects:IProject[] = [
 export const education:IEducation[]=[
   { title: 'Bachelor of Software Engineering', description: 'Universidad Cenfotec', date: '2022-2025',link:"https://ucenfotec.ac.cr/Carreras/bachillerato-en-ingenieria-del-software/" },
   { title: 'Software Engineer Technician', description: 'Universidad Cenfotec', date: '2020-2022',link:"https://ucenfotec.ac.cr/Carreras/tecnico-en-ingenieria-del-software/?portfolioCats=1338" },
+]
+
+export const experience:IExperience[] = [
+  {
+    position: "Financial Analyst",
+    company: "Cargill & GlaxoSmithKline",
+    date: "2020-PRESENT",
+    description: "My experience at these multinational companies has significantly strengthened my teamwork, communication, time management, and leadership skills, preparing me for a highly demanding work environment."
+  }
 ]
