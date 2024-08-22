@@ -1,5 +1,18 @@
-h1{
-  font-weight: bold;
+h2, h3{
+  font-size: clamp(40px, 8vw, 80px);
+  margin: 0px;
+  font-weight: 600;
+  color: var(--lightest-slate);
+  line-height: 1.1;
+}
+h3{
+  color: #1C7C54;
+}
+
+p{
+  margin-top: 20px;
+  max-width: 560px;
+  text-align: left;
 }
 .btn-primary {
   background-color: #73E2A7;
@@ -14,7 +27,9 @@ h1{
     background-color: #1C7C54;
   }
 }
-
+.aboutContainer{
+  width: auto;
+}
 .container {
   display: flex;
   height: 100vh; /* 100vh = 100% de la altura de la viewport */
@@ -22,18 +37,4 @@ h1{
 .element {
   flex: 1; /* Ocupa todo el espacio disponible */
 }
- p{
-  max-width: 400px;
-}
-img{
-  max-height: 400px;
-}
-.welcoming{width: auto}
-@media (max-width: 993px) {
-  .about {
-    padding-top: 70px; /* Aumenta el padding para pantallas pequeñas */
-  }
-  img{
-    max-height: 300px;
-  }
-}
+
